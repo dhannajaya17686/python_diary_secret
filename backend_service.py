@@ -28,15 +28,31 @@ class Diary_DB_Backend():
     
     #Database Read items from the databse 
 
-    def DB_password_acceser_fn()->str:
+    def DB_password_acceser_fn():
         pass
 
-    def DB_User_statsRead_fn()->str:
+    def DB_User_statsRead_fn():
         pass
 
-    def DB_user_diaryItemsRead_fn()->str:
+    def DB_user_diaryItemsRead_fn():
         pass
 
+
+    #Database Update Items from the database
+
+    def DB_User_passwordUpdate_fn():
+        pass
+
+    def DB_User_Diary_passowordUpdate_fn():
+        pass
+
+    #Database Delete Items from the database
+
+    def DB_user_Delete_fn():
+        pass
+
+    def DB_Diary_Delete_fn():
+        pass
 
 
 
